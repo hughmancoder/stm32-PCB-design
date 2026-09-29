@@ -18,6 +18,7 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*-save.kicad_sch
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
@@ -41,3 +42,13 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# KiCad reports (ERC / DRC)
+*.rpt
+
+# OS metadata
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
